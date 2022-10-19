@@ -78,10 +78,7 @@ input {
 
 /*------------Header----------------*/
 .header {
-    width: 100%;
-    /*background: #3e7530;*/
-    back
-
+    width: 100%;    
     position: fixed;
     top: 0;
     left: 0;
@@ -117,7 +114,7 @@ input {
     .nav_menu {
         position: fixed;
         width: 100%;
-        /* background: #3a6e2d; */
+        background: #252525;  
         top: -150%;
         left: 0;
         padding: 3.5rem 0;
