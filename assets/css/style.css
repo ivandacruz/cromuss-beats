@@ -229,10 +229,11 @@ input {
     margin-bottom: 1rem;
 }
 .home_title {
-    font-size: 5rem;
+    font-size: 3rem;
     font-weight: 900;
     line-height: 109%;
     margin-bottom: 1rem;
+    letter-spacing: .3rem;
 }
 .home_description {
     margin-bottom: 1rem;
