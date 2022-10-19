@@ -1,12 +1,830 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CROMUS-S</title>
-</head>
-<body>
-    
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CROMUS-S</title>
+        <!--- favicon -->
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/img/favicon-32x32.png">
+        <!-- Box Icons -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+        <!-- Swiper Css -->
+        <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+        <!-- Css -->
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <!--======   Header - Cabecalho start ======-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="./home.html" class="nav_logo">
+                    <img
+                    class="nav_logo-img" 
+                    src="./assets/img/logo.png" 
+                    alt="" 
+                    />
+                    <i class="footer_logo_name">CROMUS-S</i> 
+                </a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="nav_list">
+                        <li class="nav_item">
+                            <a href="#home" class="nav_link active-link">Home</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="#about" class="nav_link">Sobre</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="./assets/pages/products.html" class="nav_link">Products</a>
+                        </li>
+                        <li class="nav_item">
+                            <a href="./assets/pages/cart.html" class="nav_link">Cart</a>
+                        </li>
+                        <a href="#" class="button button-ghost">Suporte</a>
+                    </ul>
+                    <div class="nav_close" id="nav-close">
+                        <i class="bx bx-x"></i>
+                    </div>
+                    <img
+                        class="nav_img" 
+                        src="./assets/img/logo.png" 
+                        alt=""
+                    />
+                </div>
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class="bx bx-grid-alt"></i>
+                </div>
+            </nav>
+        </header>
+        <!--======  Header - Cabecalho End    ======-->
+
+        <!--======   Main start           ==========-->
+        <main class="main">
+            <!--==== Section Home Start ====-->
+            <section class="home container" id="home">
+                <div class="swiper home-swiper">
+                    <div class="swiper-wrapper">
+                        <!--== Home Slider 1 start ==-->
+                        <section class="swiper-slide">
+                            <div class="home_content grid">
+                                <div class="home_group">
+                                    <img src="./assets/img/Fone-01.png" alt="" class="home_img" />
+                                    <div class="home_indicator"></div>
+                                    <div class="home_details-img">
+                                        <h4 class="home_details-title">The "Hyper X"</h4>
+                                        <span class="home_details-subtitle">High Quality Sound and Audio.</span>
+                                    </div>
+                                </div>
+
+                                <div class="home_data">
+                                    <h3 class="home_subtitle">#1 Top headset</h3>
+                                    <h1 class="home_title">Hi <br>WELCOME TO<br> THE GAME!!</h1>
+                                    <p class="home_description">
+                                        Desfrute do premiado soms com liberdade de audição sem fio e um design elegante e simplificado
+                                        com fones de ouvido acolchoados confortáveis, proporcionando reprodução de primeira classe.
+                                    </p>
+                                    <div class="home_buttons">
+                                        <a href="#" class="button">Book Now</a>
+                                        <a href="#" class="button-link button-flex">Track Record <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--== Home Slider 1 End  ==-->
+
+                        <!--== Home Slider 2 Start ==-->
+                        <section class="swiper-slide">
+                            <div class="home_content grid">
+                                <div class="home_group">
+                                    <img src="./assets/img/product1.png" alt="" class="home_img">
+                                    <div class="home_indicator"></div>
+                                    <div class="home_details-img">
+                                        <h4 class="home_details-title">Skull Candy</h4>
+                                        <span class="home_details-subtitle">High Quality Sound for You.</span>
+                                    </div>
+                                </div>
+                                <div class="home_data">
+                                    <h3 class="home_subtitle">#2 Top Melhor Som</h3>
+                                    <h1 class="home_title">ESSENCIAL<br> PARA JOGOS.</h1>
+                                    <p class="home_description">ter um fone de ouvido para jogos real muda tudo.
+                                    </p>
+                                    <div class="home_buttons">
+                                        <a href="#" class="button">Book Now</a>
+                                        <a href="#" class="button-link button-flex">Track Record <i  class="bx.bx-right-arrow-alt button_icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!--== Home Slider 2 End ==-->
+
+                        <!--== Home Slider 3 Start ==-->
+                        <section class="swiper-slide">
+                            <div class="home_content grid">
+                                <div class="home_group">
+                                    <img 
+                                        src="./assets/img/product3.png" 
+                                        alt=""
+                                        class="home_img"
+                                    />
+                                    <div class="home_indicator"></div>
+                                    <div class="home_details-img">
+                                        <h4 class="home_details-title">Beats</h4>
+                                        <span class="home_details-subtitle">High Defination sound and Audio.</span>
+                                    </div>
+                                </div>
+                                <div class="home_data">
+                                    <h3 class="home_subtitle">#3 Top Capacidade em Audio</h3>
+                                    <h1 class="home_title">MAXIMA QUALIDADE<br> EM AUDIO.</h1>
+                                    <p class="home_description">Versatilidade e confiabilidade em todos os nossos produtos, grande capacidade na sonora dos nossos audios.
+                                    </p>
+                                    <div class="home_buttons">
+                                        <a href="#" class="button">Book Now</a>
+                                        <a href="#" class="button-link button-flex">Track Record <i class="bx bx-right-arrow-alt button_icon"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        
+                        <!--== Home Slider 3 End ==-->
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </section>
+            <!--==== Section Home End  ====-->
+
+            <!--=== CATEGORY  Start ====-->
+            <section class="section category">
+                <h2 class="section_title">Escolha seu estilo <br> Categoria</h2>
+                <div class="category_container container grid">
+                    <!--img 1-->
+                    <div class="category_data">
+                        <img 
+                            src="./assets/img/20.png" 
+                            alt="" 
+                            class="category_img" 
+                        />
+                        <h3 class="category_title">Logitech</h3>
+                        <p class="category_description">
+                            Os grandes drivers de áudio de 50 mm produzem um som completo e amplo para 
+                            oferecer uma experiência de jogo mais envolvente. Seus jogos favoritos 
+                            finalmente soarão da maneira que deveriam.
+                        </p>
+                    </div>
+
+                    <!--img 2-->
+                    <div class="category_data">
+                        <img 
+                            src="./assets/img/21.png" 
+                            alt="" 
+                            class="category_img" 
+                        />
+                        <h3 class="category_title">Havit</h3>
+                        <p class="category_description">
+                            Alto-falante 50 mm com bobina de alto magnetismo, distinta qualidade sonora para games, 
+                            com graves e agudos meticulosos para ouvir músicas, Com um alto falante com som super 
+                            audivel e cristalino.
+                        </p>
+                    </div>
+                    
+                    <!--img 3-->
+                    <div class="category_data">
+                        <img 
+                            src="./assets/img/skull.png" 
+                            alt="" 
+                            class="category_img" 
+                        />
+                        <h3 class="category_title">Skull Candy</h3>
+                        <p class="category_description">
+                            acústica refinada.. Faixa de cabeça ultra-durável. Design dobrável e dobrável. 
+                            Microfone com controle de chamada e faixa. Leve e confortável
+                            Leve e confortável
+                            Faixa de cabeça ultradurável
+                            Microfone com controle de chamada e rastreamento.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <!--=== CATEGORY  End ====-->
+
+            <!--=== About  Start ====-->
+            <section class="section about" id="about">
+                <div class="about_container container grid">
+                    <div class="about_data">
+                        <h2 class="section_title about_title">Saber sobre <br> Beats</h2>
+                        <p class="about_description">
+                            A Beats vem com um estojo confortável e adaptável para que você 
+                            possa armazená-lo quando quiser e manter sua durabilidade para sempre.
+                        </p>
+                        <a href="#" class="button"> Saber Mais</a>
+                    </div>
+                    <img src="./assets/img/case.png" alt="" class="about_img">
+                </div>
+            </section>
+            <!--=== About  End ====-->
+
+            <!--== Max start ==-->
+            <section class="section max" id="max">
+                <!-- ofertas - offer -->
+                <h2 class="section_title">Maxima performance</h2>
+                <div class="max_container container grid">
+                    <!-- img 01 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/24.png" 
+                            alt=""
+                            class="max_img"
+                            />
+                        <h3 class="max_title">Havit</h3>
+                        <span class="max_subtitle">Candy</span>
+                        <span class="max_price">R$ 315.00</span>
+                        <button class="button max_button">
+                            <a href="./assets/pages/cart.html">
+                                 <i class="bx bx-cart-alt max_icon"></i>
+                            </a>
+                        </button>
+                    </div>
+
+                    <!-- img 02 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/25.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Beats</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 230.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- img 03 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/skull.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Skull Candy</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 385.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- img 04 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/pngwing.com.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Pioneer</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 250.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- img 05 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/specs.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Beats</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 190.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- img 06 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/Headset.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Sony</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 130.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+                    <!-- img 07 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/25.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Bone</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 230.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+                    <!-- img 08 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/specs.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Beets</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 190.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+
+                    <!-- img 09 -->
+                    <div class="max_content">
+                        <img 
+                            src="./assets/img/Headset.png" 
+                            alt=""
+                            class="max_img"
+                        />
+                        <h3 class="max_title">Ghost</h3>
+                        <span class="max_subtitle">Acessory</span>
+                        <span class="max_price">R$ 130.00</span>
+                        <button class="button max_button">
+                            <i class="bx bx-cart-alt max_icon"></i>
+                        </button>
+                    </div>
+                </div>
+            </section>
+            <!--== max End   ==-->
+
+            <!--== Discount Start  ==-->
+            <section class="section discount">
+                <div class="discount_container container grid">
+                    <div class="discount_data">
+                        <h2 class="discount_title">50% Descounto <br> Em Novos Produtos</h2>
+                        <a href="#" class="button">O que ha de novo</a>
+                    </div>
+                    <img src="./assets/img/tumb01.png" alt="" class="discount_img">
+                </div>
+            </section>
+            <!--============ Discount End =================-->
+
+            <!--============ New Products 1 Start =================-->
+            <section class="section new" id="new">
+                <h2 class="section_title">Novos Produtos</h2>
+                <!------ carousel 1 ------>
+                <div class="new_container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/specs.png" alt="" class="new_img">
+                                <h3 class="new_title">JBL</h3>
+                                <span class="new_subtitle">Accessory</span>
+
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.00</span>
+                                    <span class="new_discount">R$ 267.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 1 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">Beats</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 110.99</span>
+                                    <span class="new_discount">R$ 200.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 2 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Havit</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 115.99</span>
+                                    <span class="new_discount">R$ 210.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 3 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">T-Dagger</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 100.15</span>
+                                    <span class="new_discount">R$ 300.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 4 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Multilaser</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 210.99</span>
+                                    <span class="new_discount">R$ 285.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 5 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product30.png" alt="" class="new_img" />
+                                <h3 class="new_title">MSI</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 240.99</span>
+                                    <span class="new_discount">R$ 370.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 6 ------->
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Corsair</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.99</span>
+                                    <span class="new_discount">R$ 228.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!------ carousel 2 ------>
+                <div class="new_container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/pngwing.com.png" alt="" class="new_img">
+                                <h3 class="new_title">JBL</h3>
+                                <span class="new_subtitle">Accessory</span>
+
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.00</span>
+                                    <span class="new_discount">R$ 267.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 1 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">Beats</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 110.99</span>
+                                    <span class="new_discount">R$ 200.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 2 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Sony</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 115.99</span>
+                                    <span class="new_discount">R$ 210.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 3 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">Multilaser</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 100.15</span>
+                                    <span class="new_discount">R$ 300.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 4 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Skull Candy</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 210.99</span>
+                                    <span class="new_discount">R$ 285.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 5 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product30.png" alt="" class="new_img" />
+                                <h3 class="new_title">T-Dagger</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 240.99</span>
+                                    <span class="new_discount">R$ 370.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 6 ------->
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Hyper X</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.99</span>
+                                    <span class="new_discount">R$ 228.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--============ New Products 1 End =================-->
+
+            <!--============ products on sale Start =================-->
+            <section class="section new" id="new">
+                <h2 class="section_title">Produtos em Promoção</h2>
+
+                <div class="new_container container">
+                    <div class="swiper new-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/24.png" alt="" class="new_img">
+                                <h3 class="new_title">JBL</h3>
+                                <span class="new_subtitle">Accessory</span>
+
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.00</span>
+                                    <span class="new_discount">R$ 267.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 1 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">T-Dagger</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 110.99</span>
+                                    <span class="new_discount">R$ 200.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 2 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Redragon</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 115.99</span>
+                                    <span class="new_discount">R$ 210.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 3 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product31.png" alt="" class="new_img" />
+                                <h3 class="new_title">tt esports</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 100.15</span>
+                                    <span class="new_discount">R$ 300.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 4 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Havit</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 210.99</span>
+                                    <span class="new_discount">R$ 285.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                            <!----- img 5 ------>
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product30.png" alt="" class="new_img" />
+                                <h3 class="new_title">Trust GXT</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 240.99</span>
+                                    <span class="new_discount">R$ 370.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+
+                            <!----- img 6 ------->
+                            <div class="new_content swiper-slide">
+                                <div class="new_tag">New</div>
+                                <img src="./assets/img/product32.png" alt="" class="new_img" />
+                                <h3 class="new_title">Corsair</h3>
+                                <span class="new_subtitle">Acessory</span>
+                                
+                                <div class="new_prices">
+                                    <span class="new_price">R$ 140.99</span>
+                                    <span class="new_discount">R$ 228.00</span>
+                                </div>
+                                <button class="button new_button">
+                                    <i class="bx bx-cart-alt new_icon"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--============ products on sale End =================-->
+
+            <!--============ OUR Newsletter Start =================-->
+            <section class="section newsletter">
+                <div class="newsletter_container container">
+                    <h2 class="section_title">Nossa Newsletter</h2>
+                    <p class="newsletter_description">Promoção de novos produtos e vendas Diretamente na sua caixa de entrada</p>
+
+                    <form action="" class="newsletter_form">
+                        <input type="text" placeholder="Coloque seu email" class="newsletter_input">
+                        <button class="button">Inscreva-se</button>
+                    </form>
+                </div>
+            </section>
+            <!--============ OUR Newsletter Start =================-->        
+        </main>
+        <!--================= MAIN END  =====================-->
+
+        <!--================ Footer start  ====================-->
+        <footer class="footer section">
+            
+            <div class="footer_container container grid">
+                <div class="footer_content">
+                    <a href="#" class="footer_logo">
+                        <img 
+                            src="./assets/img/logo.png" 
+                            alt="" 
+                            class="footer_logo-img"
+                        />
+                        <i class="footer_logo_name">CROMUS-S</i> 
+                    </a>
+                    <p class="footer_description">
+                        A sua loja de produtos audiveis <br> of yourlife.
+                    </p>
+                    
+                    <div class="footer_social">
+                        <a  href="https://www.facebook.com/" 
+                            target="_blank" 
+                            class="footer_social-link">
+                            <i class="bx bxl-facebook"></i>
+                        </a>
+                        <a  href="https://www.instagram.com/" 
+                            target="_blank" 
+                            class="footer_social-link">
+                            <i class="bx bxl-instagram"></i>
+                        </a>
+                        <a  href="https://www.twitter.com/" 
+                            target="_blank" 
+                            class="footer_social-link">
+                            <i class="bx bxl-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer_content">
+                    <h3 class="footer_title">Sobre</h3>
+                    <ul class="footer_links">
+                        <li><a href="#" class="footer_link">Sobre nós</a></li>
+                        <li><a href="#" class="footer_link">Recursos</a></li>
+                        <li><a href="#" class="footer_link">Notícias</a></li>
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <h3 class="footer_title">Nossos Serviços</h3>
+                    <ul class="footer_links">
+                        <li><a href="#" class="footer_link">Preços</a></li>
+                        <li><a href="#" class="footer_link">Descontos</a></li>
+                        <li><a href="#" class="footer_link">Modo de entrega</a></li>
+                    </ul>
+                </div>
+                <div class="footer_content">
+                    <h3 class="footer_title">Nossa Empresa</h3>
+                    <ul class="footer_links">
+                        <li><a href="#" class="footer_link">Blog</a></li>
+                        <li><a href="#" class="footer_link">Sobre nós</a></li>
+                        <li><a href="#" class="footer_link">Nossa missão</a></li>
+                    </ul>
+                </div>
+            </div>
+            <span class="footer_copy">
+                &#169; <span class="footer_creator">IvanC_Code</span> .  Todos os direitos reservados.
+            </span>
+            <img src="./assets/img/product6.png" alt="" class="footer_img-one">
+            <img src="./assets/img/product7.png" alt="" class="footer_img-two">
+        </footer>
+        <!--======      Footer End        ==========-->
+        
+        <!--======      ScrollUP          ==========-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class="bx bx-up-arrow-alt scrollup_icon"></i>
+        </a>
+        <!--=======     SCROLL REVEAL     =======-->
+        <script src="./assets/js/scrollreveal.min.js"></script>
+        <!--=======     SWIPPER JS   =======-->
+        <script src="./assets/js/swiper-bundle.min.js"></script>
+        <!--======      MAIN JS     ========-->
+        <script src="./assets/js/main.js"></script>
+    </body>
 </html>
